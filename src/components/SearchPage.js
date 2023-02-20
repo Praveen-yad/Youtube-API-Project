@@ -35,7 +35,7 @@ function SearchPage() {
   return (
     <div className={Dark ? `dark` : ``}>
         <div className="w-[100vw] flex flex-col items-center justify-center bg-white dark:bg-[#111111] min-h-[100vh] transition-color duration-300 ">
-            <div className='text-6xl text-center sm:text-7xl tracking-tighter font-bold text-[#222222] dark:text-white transition-colors duration-300 -mt-20 sm:-mt-10'>Youtube API Project</div>
+            <div className='text-6xl text-center sm:text-7xl tracking-tighter font-bold text-[#222222] dark:text-white transition-colors duration-300 -mt-20 sm:-mt-10 selcet-none'>Youtube API Project</div>
             <div className='flex space-x-3 mt-6'>
                 <div className='bg-[#222222] dark:text-[#111111] text-white dark:bg-white px-10 py-1 rounded-full text-lg cursor-pointer transition-colors duration-300 select-none' onClick={() => setSearchBar(!SearchBar)} >Search</div>
                 <Link to={'/Explore'}>
