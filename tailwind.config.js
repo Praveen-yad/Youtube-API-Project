@@ -6,11 +6,11 @@ module.exports = {
   theme: {
     extend: {
       animation:{
-        slide: 'slide 0.5s ease-in-out'
+        slide: 'slide 0.7s ease-in-out'
       },
       keyframes: {
         slide:{
-          from:{opacity: 0.5, transform: 'translateX(5%)'},
+          from:{opacity: 0.7, transform: 'translateX(5%)'},
           to:{opacity:1, tranaform: 'translateX(0)'}
         },
       }
